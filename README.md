@@ -1,12 +1,45 @@
-# React + Vite
+# Ghibli-Style Trees
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an implementation of Ghibli-style trees in 3D using React and Three.js, inspired by the tutorial from [this YouTube video](https://www.youtube.com/watch?v=IGK6eceWyU4).
 
-Currently, two official plugins are available:
+![Ghibli Style Trees Example](screenshot.png) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## Expanding the ESLint configuration
+- [React](https://reactjs.org/) - UI framework
+- [Vite](https://vitejs.dev/) - Build tool
+- [Three.js](https://threejs.org/) - 3D JavaScript library
+- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) - React renderer for Three.js
+- [React Three Drei](https://github.com/pmndrs/drei) - Useful helpers for React Three Fiber
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Description
+
+This project recreates the iconic visual style of Studio Ghibli's trees in a 3D environment. It uses techniques demonstrated in the tutorial to achieve the painterly, stylized look characteristic of Ghibli films like "My Neighbor Totoro" and "Princess Mononoke".
+
+Key features:
+- Custom tree geometry and materials
+- Stylized shading techniques
+- Ghibli-inspired color palette
+- Interactive 3D environment
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## About the React + Vite Template
+
+This project is built on the React + Vite template which provides:
+- HMR (Hot Module Replacement)
+- ESLint configuration
+- Optimized production builds
+
+## Credits
+
+- Tutorial by [YouTuber](https://www.youtube.com/watch?v=IGK6eceWyU4)
+- Inspired by the art style of Studio Ghibli films
