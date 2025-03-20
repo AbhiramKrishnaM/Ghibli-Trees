@@ -1,7 +1,12 @@
+import { FiberContainer } from "./FiberContainer";
 import "./App.css";
 
 function App() {
-  return <>hello</>;
+  return (
+    <>
+      <FiberContainer />
+    </>
+  );
 }
 
 export default App;
