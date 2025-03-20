@@ -2,8 +2,6 @@
 
 This project is an implementation of Ghibli-style trees in 3D using React and Three.js, inspired by the tutorial from [this YouTube video](https://www.youtube.com/watch?v=IGK6eceWyU4).
 
-![Ghibli Style Trees Example](screenshot.png) 
-
 ## Technologies Used
 
 - [React](https://reactjs.org/) - UI framework
@@ -26,20 +24,8 @@ Key features:
 
 ```bash
 # Install dependencies
-npm install
+bun install
 
 # Start development server
-npm run dev
+bun run dev
 ```
-
-## About the React + Vite Template
-
-This project is built on the React + Vite template which provides:
-- HMR (Hot Module Replacement)
-- ESLint configuration
-- Optimized production builds
-
-## Credits
-
-- Tutorial by [YouTuber](https://www.youtube.com/watch?v=IGK6eceWyU4)
-- Inspired by the art style of Studio Ghibli films
