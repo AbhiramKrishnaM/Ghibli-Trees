@@ -9,7 +9,7 @@ export function Scene() {
   useFrame(() => {
     const { current: group } = refTrees;
     if (group) {
-      group.rotation.x = group.rotation.y += 0.01;
+      // group.rotation.x = group.rotation.y += 0.01;
     }
   });
 
